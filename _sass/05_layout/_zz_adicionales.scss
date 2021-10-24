@@ -1,0 +1,183 @@
+
+$intrans-color:    #ffb71c;
+
+.column, .columns {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+#tnav-menu > a {
+  color: grey;
+}
+
+#masthead.header-image div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 90vw!important;
+  margin:  0 auto;
+  height: 10vh;
+  margin-top: 40px;
+}
+
+header figcaption {
+  text-align: center;
+}
+
+.row {max-width: 95rem;}
+
+hr {
+  color: grey;
+  height: 1em;
+  max-width: 50%;
+  border-bottom: 1px solid grey;
+}
+
+
+*[lang|=se] {
+    background-color: none;
+  }
+ div[lang|=se] {
+    border-right: 0px solid $intrans-color;
+  }
+
+  @media screen and (max-width: 64em)  {
+    div[lang|=se] {
+      border-bottom: 0px solid $intrans-color;
+    }  
+  }
+
+  // Test con grid
+
+div.dos-idiomas {
+  margin: 0em auto;
+  margin-top: -2em;
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr  1px  1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-column-gap: 25px;
+
+      .text {grid-row: 1 / 4;}  
+
+      .rule {
+        grid-column: 2 / 3;  
+        grid-row: 2 / 3;  
+        background:black;
+      } 
+ 
+}
+ 
+
+
+
+
+div.participante {
+    margin: 0em auto;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: 1fr  1px 1fr;
+    grid-template-rows: auto auto auto 6em auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+    
+        .text {grid-row: 3 / 6;}
+        .rule{
+          grid-column: 2 / 3;
+          grid-row: 4 / 5;    
+          background:black;
+      }
+      
+}
+div.participante.bio {
+  margin: 0em auto;
+  margin-top: -2em;
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr  1px 1fr;
+  grid-template-rows: 2em auto 28px minmax(60vh, auto) auto;
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+
+      .rule {
+          grid-column: 2 / 3;
+          grid-row: 4 / 5;    
+          background:black;
+      }  
+}
+
+
+
+        @media (max-width: $small - 1) {
+          div.participante, div.dos-idiomas {display: block;}
+          .nombre {margin-bottom: 1em!important}
+          .rule {max-height: 1px; width: 50%; margin: auto;}
+
+          div.participante.bio {display: block;}
+        }
+
+
+// .rule{
+//     grid-column: 2 / 3;
+//     grid-row: 4 / 5;    
+//     background:black;
+// }
+
+.nombre, .foto, .foto-cont, .leer-mas {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+    margin: 0;
+    max-height: 250px;
+}
+.fecha-bio {
+    font-size: .8em;
+    margin-top: 0em;
+  }
+.foto-cont figcaption {
+    color:grey;
+    font-size: .6em;
+    text-align: left;
+    margin-top: -2.5em;
+    margin-left: .3em;
+  }
+// .nombre {background-color: lightblue;}
+// .leer-mas {background-color:lightpink;}
+
+// .text {grid-row: 3 / 6;}
+
+.text.swe {grid-column: 1 / 2;}
+.text.esp {grid-column: 3 / 4;}
+
+.leer-mas {
+    text-align:center;
+    font-size: .9em;
+    font-style: italic;
+  }
+      .leer-mas a {border-bottom: 0px!important;}
+
+
+                                          // PROGRAMA
+.program {
+  .jornada {
+      border-bottom: 1px solid green;
+      padding-bottom: 2em;
+      * {margin: 0;}
+
+      .fecha {
+          margin-top: 3em;
+          text-decoration: underline;
+          text-align:center;
+      } 
+      .titulo-prog {text-align:center;}
+      .lugar {margin-top: 1em;} 
+      .horario {margin: 0;}   
+      .evento {
+          margin-top: 1em;
+          .titulo-evento {font-weight: bold;}
+          ul.ponentes {margin-left: 1em;}
+      }
+      p {margin: 0;}             
+  }
+
+}
+
