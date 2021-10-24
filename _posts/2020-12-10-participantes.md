@@ -32,7 +32,8 @@ fullwidth: true
 <div class="participante">
     <h2 class="nombre">Clara Usón</h2>
     <div class="foto-cont">
-        <img class="foto" src="/images/escritora-Clara-Uson.jpg" alt="ella" /> 
+        <img class="foto" src="{{'/images/escritora-Clara-Uson.jpg' | relative_url }}" alt="ella" /> 
+ alt="ella" /> 
     </div>
     <div class="text swe" lang="se">
         <p>National Critics Award för <em> La hija del este </em>, som han kommer att dela ut i Stockholm i sin svenska upplaga.</p>
@@ -49,7 +50,8 @@ fullwidth: true
 <div class="participante">
     <h2 class="nombre">Cristina Morales</h2>
     <figure class="foto-cont">
-        <img class="foto" src="/images/Cristina_Morales.jpg" alt="ella" /> 
+        <img class="foto" src="{{'/images/Cristina_Morales.jpg' | relative_url }}" alt="ella" /> 
+ alt="ella" /> 
         <figcaption>© Javier López Mansilla</figcaption>
     </figure>
     <div class="text swe" lang="se">
@@ -67,7 +69,8 @@ fullwidth: true
 <div class="participante">
     <h2 class="nombre">Jordi Gracia García</h2>
     <div class="foto-cont">
-        <img class="foto" src="/images/Jordi_Gracia.jpg" alt="ella" /> 
+        <img class="foto" src="{{'/images/Jordi_Gracia.jpg' | relative_url }}" alt="ella" /> 
+ alt="ella" /> 
     </div>
     <div class="text swe" lang="se">
         <p>Litteraturkritiker, professor i spansk litteratur vid universitetet i Barcelona och biträdande opinionschef för tidningen El País.</p>
@@ -85,7 +88,8 @@ fullwidth: true
 <div class="participante">
     <h2 class="nombre">Ella Sher</h2>
     <div class="foto-cont">
-        <img class="foto" src="/images/Ella_Sher.jpeg" alt="ella" /> 
+        <img class="foto" src="{{'/images/Ella_Sher.jpeg' | relative_url }}" alt="ella" /> 
+ alt="ella" /> 
     </div>
     <div class="text swe" lang="se">
         <p>Litterär agent etablerad i Barcelona och ett grundläggande namn i spridningen av spansk litteratur producerad av framväxande författare under fyrtio år. Cristina Morales, Jon Bilbao, Juan Gómez Bárcena, María Folguera och Sergio del Molino är bland de representerade.</p>
