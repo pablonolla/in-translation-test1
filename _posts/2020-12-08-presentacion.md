@@ -24,22 +24,13 @@ permalink: /
     </div>
 
 </div>
-<p> </p>
-<p> </p>
+<p>&#160;</p>
 # Seminario de traducción y presentaciones <span class="barrita">/</span> <br />Översättningsseminarium och presentationer
-
-–
-
-
+<p>&#160;</p>
 # Paricipantes <span class="barrita">/</span> Deltagarna
-
-–
-# Organizado por / con la colaboración de:
-
-–
-
-# Sedes
-
-–
-
-# Contacto
+<p>&#160;</p>
+# Organizado por <span class="barrita">/</span> Organiserad av:
+<p>&#160;</p>
+# Sedes <span class="barrita">/</span> Platser
+<p>&#160;</p>
+# Entidades colaboradoras <span class="barrita">/</span> I samarbete med
