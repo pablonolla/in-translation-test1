@@ -34,8 +34,10 @@ hr {
 
 
 *[lang|=se] {
-    background-color: none;
-  }
+    // background-color:lawngreen;
+    font-style: italic;
+    // font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
  div[lang|=se] {
     border-right: 0px solid $intrans-color;
   }
@@ -62,11 +64,13 @@ div.dos-idiomas {
       .rule {
         grid-column: 2 / 3;  
         grid-row: 2 / 3;  
-        background:black;
+        background:magenta;
       } 
  
 }
- 
+span.barrita {
+    color:magenta;
+}  
 
 
 
