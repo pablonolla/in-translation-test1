@@ -16,7 +16,7 @@ header_caption_url: 'https://unsplash.com/grakozy/portfolio'
 <div class="participante-bio">
     <h3 class="fecha-bio">(Santianes de Pravia, Asturias, España, 1950)</h3>
     <div class="foto-cont">
-        <img class="foto" src="/images/Olvido_Garcia_Valdes.jpg" height="301" width="388" alt="ella" /> 
+        <img class="foto" src="{{'/images/Olvido_Garcia_Valdes.jpg' | relative_url }}" height="301" width="388" alt="ella" /> 
     </div>
     <div class="text esp" lang="es">
         <p>Licenciada en Filología Románica y en Filosofía. Profesionalmente, ha sido Catedrática de Lengua Castellana y Literatura. Fue también Directora del Instituto Cervantes de Toulouse y Directora General del Libro y Fomento de la Lectura. En la actualidad reside en Toledo.</p>
