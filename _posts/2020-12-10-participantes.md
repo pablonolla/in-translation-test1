@@ -24,7 +24,7 @@ fullwidth: true
     <div class="text esp" lang="es">
         <p>Premio Nacional de Poesía en 2007 por <em>Y todos estábamos vivos</em> y Premio Iberoamericano de Poesía Pablo Neruda 2021, presentará la edición sueca de la premiada Y todos estábamos vivos. </p>
     </div>
-    <p class="leer-mas"><a href="{{ "/olvido_g_v/" | absolute_url }}">Läs mer / Leer más</a></p>
+    <p class="leer-mas"><a href="{{ "/bios_olvido_g_v_esp/" | absolute_url }}">Läs mer / Leer más</a></p>
 </div>
 
 <hr class="separador"/>
