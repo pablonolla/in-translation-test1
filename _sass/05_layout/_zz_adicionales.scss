@@ -80,6 +80,10 @@ span.barrita {
                           padding-left: 20px;  
                           font-size: .8em;
                         }
+                        .fecha-bio {
+                          font-size: .8em;
+                          margin-top: -1.3em;
+                        }
                         .foto-cont2 {
                             max-width: 60vw;
                             img {height: auto;  object-fit: cover;}
@@ -141,32 +145,29 @@ span.barrita {
 
 
 
-div.participante.bio {
-  margin: 0em auto;
-  margin-top: -2em;
-  padding: 1em 0;
-  display: grid;
-  grid-template-columns: 1fr  1px 1fr;
-  grid-template-rows: 2em auto 28px minmax(60vh, auto) auto;
-  grid-column-gap: 25px;
-  grid-row-gap: 10px;
+// div.participante.bio {
+//   margin: 0em auto;
+//   margin-top: -2em;
+//   padding: 1em 0;
+//   display: grid;
+//   grid-template-columns: 1fr  1px 1fr;
+//   grid-template-rows: 2em auto 28px minmax(60vh, auto) auto;
+//   grid-column-gap: 25px;
+//   grid-row-gap: 10px;
 
-      .rule {
-          grid-column: 2 / 3;
-          grid-row: 4 / 5;    
-          background:black;
-      }  
-}
+//       .rule {
+//           grid-column: 2 / 3;
+//           grid-row: 4 / 5;    
+//           background:black;
+//       }  
+// }
+//         @media (max-width: $small - 1) {
+//           div.participante, div.dos-idiomas {display: block;}
+//           .nombre {margin-bottom: 1em!important}
+//           .rule {max-height: 1px; width: 50%; margin: auto;}
 
-
-
-        @media (max-width: $small - 1) {
-          div.participante, div.dos-idiomas {display: block;}
-          .nombre {margin-bottom: 1em!important}
-          .rule {max-height: 1px; width: 50%; margin: auto;}
-
-          div.participante.bio {display: block;}
-        }
+//           div.participante.bio {display: block;}
+//         }
 
 
 // .rule{
@@ -175,24 +176,21 @@ div.participante.bio {
 //     background:black;
 // }
 
-.nombre, .foto, .foto-cont, .leer-mas {
-    grid-column: 1 / -1;
-    /* needed for the floated layout */
-    clear: both;
-    margin: 0;
-    max-height: 250px;
-}
-.fecha-bio {
-    font-size: .8em;
-    margin-top: 0em;
-  }
-.foto-cont figcaption {
-    color:grey;
-    font-size: .6em;
-    text-align: left;
-    margin-top: -2.5em;
-    margin-left: .3em;
-  }
+// .nombre, .foto, .foto-cont, .leer-mas {
+//     grid-column: 1 / -1;
+//     /* needed for the floated layout */
+//     clear: both;
+//     margin: 0;
+//     max-height: 250px;
+// }
+
+// .foto-cont figcaption {
+//     color:grey;
+//     font-size: .6em;
+//     text-align: left;
+//     margin-top: -2.5em;
+//     margin-left: .3em;
+//   }
 // .nombre {background-color: lightblue;}
 // .leer-mas {background-color:lightpink;}
 
