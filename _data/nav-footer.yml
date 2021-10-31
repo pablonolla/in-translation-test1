@@ -1,0 +1,19 @@
+es:
+    - name: 'About'
+      url: '/organizadores/'
+
+    - name: 'Programa'
+      url: '/programa/'
+
+    - name: 'Contacto'
+      url: '/'
+
+se:
+    - name: 'Om oss'
+      url: 'se/organizadores_swe/'
+
+    - name: 'Program'
+      url: 'se/programa_swe/'
+
+    - name: 'Kontakt'
+      url: '/'

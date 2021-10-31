@@ -1,0 +1,41 @@
+es:
+    - name: "Presentación"
+      url: "/"
+
+    - name: "Programa"
+      url: "/programa/"
+
+    - name: "Participantes"
+      url: "/participantes/"
+
+    - name: "Textos"
+      url: "/traducir_poesia/"
+
+    - name: "Sedes"
+      url: "/sedes/"
+
+    - name: "Organizadores"
+      url: "/organizadores/"  
+
+
+
+
+se: 
+    - name: "Presentation"
+      url: "se/"
+
+    - name: "Program"
+      url: "se/programa_swe/"
+
+    - name: "Deltagarna"
+      url: "se/deltagarna/"
+
+    - name: "Texter"
+      url: "se/traducir_poesia_swe/"
+
+    - name: "Platser"
+      url: "se/sedes_swe/"
+
+    - name: "Arrangörer"
+      url: "se/organizadores_swe/"  
+

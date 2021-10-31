@@ -25,7 +25,26 @@
 
     <li id="tnav-search" class="tnav-item"><a href="{{ "/search/" | absolute_url }}">{% include svg/search.svg %}</a></li>
 
-    <li id="tnav-share" class="tnav-item tnav-has-children tnav-allow-hover no-dropdown-arrow"><a href="#">{% include svg/share.svg %}</a>
+  {% if page.layout != 'index' %}
+  {% assign posts=site.posts | where:"language-ref", page.language-ref | sort: 'language' %}
+      {% if posts.size == 0 %}
+          {% assign posts=site.pages | where:"language-ref", page.language-ref | sort: 'language' %}
+      {% endif %}
+      {% if posts.size > 1 %}
+          <!-- <em>Read this page in a different language:</em> -->
+          <!-- <ul> -->
+          {% for post in posts %}
+          <li class="tnav-item"><a href="{{ post.url }}" class="{{ post.language }}" title="View in {{post.language}}">{{ post.language }}
+            {% if post.language == "es" %} {% elsif post.language == "se" %}
+            {% endif %}</a></li>
+          {% endfor %}
+          <!-- </ul> -->
+          <!-- <span class="traducc"><img src="/images/Language-Icons/icon20x24px-exported-transparent.png" /></span> -->
+      {% endif %}
+{% endif %}
+
+
+    <!-- <li id="tnav-share" class="tnav-item tnav-has-children tnav-allow-hover no-dropdown-arrow"><a href="#">{% include svg/share.svg %}</a>
       <ul class="tnav-children">
 		<li class="tnav-item"><a href="http://twitter.com/share?url={{ page.url | absolute_url }}&text=&raquo;{{ page.title }}&laquo;&via={{ site.socialmedia.twitter }}">Tweet it</a></li>
 		<li class="tnav-item"><a href="http://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}">Facebook</a></li>
@@ -36,20 +55,34 @@
 		<li class="tnav-item"><a href="http://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}&source={{ page.url | absolute_url }}">LinkedIn</a></li>
 		<li class="tnav-item"><a href="mailto:?subject={{ page.title }}&body={{ page.url | absolute_url }}">Email</a></li>
       </ul>
-    </li>
+    </li> -->
 
-    <li id="tnav-menu" class="tnav-item tnav-has-children tnav-allow-hover"><a href="#">Contenido</a>
+
+
+    <li id="tnav-menu" class="tnav-item tnav-has-children tnav-allow-hover"><a href="#">
+      
+      {% if page.language == "es" %} Contenido 
+        {% else %} Inehåll
+      {% endif%}
+
+    </a>
       <ul class="tnav-children">
-        <li class="tnav-item tnav-hid"><a href="{{ "/" | absolute_url }}">Presentation / Presentación</a></li> 
-        <li class="tnav-item tnav-hid"><a href="{{ "/programa/" | absolute_url }}">Program / Programa</a></li> 
-        <li class="tnav-item"><a href="{{ "/participantes-esp/" | absolute_url }}">Participantes</a></li>  
-        <li class="tnav-item"><a href="{{ "/traducir_poesia/" | absolute_url }}">Traducier poesía...</a></li>                                
-        <!-- <li class="tnav-item"><a href="{{ "/info/" | absolute_url }}">About {{ site.title }}</a></li> -->
-        <li class="tnav-item"><a href="{{ "/contact/" | absolute_url }}">Contact</a></li>
-        <li class="tnav-item tnav-hid"><a href="{{ "/archive/" | absolute_url }}">Archive</a></li>
+
+        {% if page.language == "se" %}
+            {% assign menulist =  site.data.menu.se %}
+            {% else %} 
+                {% assign menulist =  site.data.menu.es %}
+        {% endif %}     
+
+            {% for item in menulist %}
+              <li class="tnav-item tnav-hid"><a href="{{ item.url | absolute_url }}">{{ item.name }}</a></li> 
+            {% endfor %}
       </ul>
-    </li>
+    </li> 
 
   </ul>
+
+
+
 </nav>
 

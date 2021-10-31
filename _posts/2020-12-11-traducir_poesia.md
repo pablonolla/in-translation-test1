@@ -2,9 +2,9 @@
 title: 'Om den omöjliga uppgiften att översätta poesi / <br />De la imposible tarea de traducir poesía'
 header_image: 'intranslation2.png'
 header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
-header_caption_url: 'https://unsplash.com/grakozy/portfolio'
 fullwidth: true
-
+language: es
+language-ref: textos
 ---
 
 
