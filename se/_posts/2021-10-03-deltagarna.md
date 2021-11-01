@@ -23,7 +23,7 @@ language-ref: participantes
 
 <div class="participante2">
     <div class="nombre2"><h2>Clara Usón</h2></div>
-    <div class="foto-cont2"><img class="fot" src="{{'/images/escritora-Clara-Uson.jpg' | relative_url }}" alt="ella" /></div>
+    <div class="foto-cont2"><img class="fot" src="{{'/images/Clara_Uson.jpg' | relative_url }}" alt="ella" /></div>
     <div class="text2 esp" lang="es">
         <p>National Critics Award för <em> La hija del este </em>, som han kommer att dela ut i Stockholm i sin svenska upplaga. <span class="leer-mas2"><a href="{{ "/bios_olvido_g_v_esp/" | absolute_url }}">(Leer más)</a></span></p>
     </div>

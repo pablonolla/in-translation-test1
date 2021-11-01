@@ -16,7 +16,7 @@ language-ref: bio-ogv
 <div class="participante bio">
     <h3 class="fecha-bio">(Santianes de Pravia, Asturias, Spanien, 1950)</h3>
     <div class="foto-cont">
-        <img class="foto" src="/images/Olvido_Garcia_Valdes.jpg" alt="ella" /> 
+        <img class="foto" src="{{'/images/Olvido_Garcia_Valdes.jpg' | relative_url }}" alt="ella" /> 
     </div>
     <div class="text swe" lang="se">
         <p> Utexaminerad i romantisk filologi och filosofi. Professionellt har hon varit professor i spanska språk och litteratur. Hon var också direktör för Cervantes Institute of Toulouse och generaldirektör för Book and Promotion of Reading. Han är för närvarande bosatt i Toledo. </p>

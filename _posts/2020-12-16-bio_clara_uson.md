@@ -17,7 +17,7 @@ language-ref: bio-cu
 <div class="participante bio">
     <h3 class="fecha-bio">(Barcelona, España, 1961)</h3>
     <div class="foto-cont">
-        <img class="foto" src="/images/Clara_Uson.jpg" alt="ella" /> 
+        <img class="foto" src="{{'/images/Clara_Uson.jpg' | relative_url }}" alt="ella" /> 
     </div>
     <div class="text esp" lang="es">
         <p>Estudió derecho y ejerció la abogacía durante 18 años.</p>
