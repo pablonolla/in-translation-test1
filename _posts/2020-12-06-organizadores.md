@@ -12,11 +12,11 @@ language-ref: organizadores
 <!--more-->
 <div class="organizadores">
 
-    <p>In Translation <em>(Spanish literature – Stockholm 2-4 december 2021)</em>, es un proyecto desarrollado y dirigido por Gaspar Cano en colaboración con Daniel Gustafsson.<p>
+    <p>In Translation <em>(Spanish literature – Stockholm 2-4 december 2021)</em>, es un proyecto desarrollado y dirigido por Gaspar Cano en colaboración con Daniel Gustafsson.</p>
     <p>Gaspar Cano es Filólogo y periodista <em>freelance</em>; exdirector y fundador del Instituto Cervantes de Estocolmo, dirigió el Instituto Cervantes de Berlín durante los años de 2007 al 2012.</p>
     <p>Daniel Gustafsson es director ejecutivo de Översättarcentrum, Estocolmo. Escritor y traductor, antiguo responsable de literatura del Svenska Institutet, instituto nacional de cultura de Suecia.</p>
 
-
+<br />
 <h1>Organizado por:</h1>
 
     <div class="participante2">
@@ -50,62 +50,62 @@ language-ref: organizadores
 
 <h1>En colaboración con:</h1>
 
-    <div class="participante2">
-        <div class="nombre2"><h2 >Författarförbundet</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
-        <div class="text2 esp" lang="es">
-            <p><a href="https://forfattarforbundet.se/" target="_blank">www.forfattarforbundet.se/</a><br />
-            Contacto: Klara Lindell, responsable departamento traducción. <br />
-            <a mailto="klaraverbatext@gmail.com">iklaraverbatext@gmail.com</a>
-            </p>        
-        </div>
+<div class="participante2">
+    <div class="nombre2"><h2 >Författarförbundet</h2></div>    
+    <div class="foto-cont2"><img class="" src="{{'/images/logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
+    <div class="text2 esp" lang="es">
+        <p><a href="https://forfattarforbundet.se/" target="_blank">www.forfattarforbundet.se/</a><br />
+        Contacto: Klara Lindell, responsable departamento traducción. <br />
+        <a mailto="klaraverbatext@gmail.com">iklaraverbatext@gmail.com</a>
+        </p>        
     </div>
-    <hr class="separador"/>
+</div>
+<hr class="separador"/>
 
-    <div class="participante2">
-        <div class="nombre2"><h2 >Kulturhuset/Stadsteatern</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
-        <div class="text2 esp" lang="es">
-            <p><a href="https://kulturhusetstadsteatern.se/" target="_blank">www.kulturhusetstadsteatern.se</a><br />
-            Contacto: Ingmar Fasth, responsable programación de literature. <br />
-            <a mailto="ingemar.fasth@stockholm.se">ingemar.fasth@stockholm.se</a>
-            </p>      
-        </div>
+<div class="participante2">
+    <div class="nombre2"><h2 >Kulturhuset/Stadsteatern</h2></div>    
+    <div class="foto-cont2"><img class="" src="{{'/images/khst_logo.svg' | relative_url }}" height="301" width="388" alt="ella" /></div>
+    <div class="text2 esp" lang="es">
+        <p><a href="https://kulturhusetstadsteatern.se/" target="_blank">www.kulturhusetstadsteatern.se</a><br />
+        Contacto: Ingmar Fasth, responsable programación de literature. <br />
+        <a mailto="ingemar.fasth@stockholm.se">ingemar.fasth@stockholm.se</a>
+        </p>      
     </div>
-    <hr class="separador"/>
+</div>
+<hr class="separador"/>
 
-    <div class="participante2">
-        <div class="nombre2"><h2 >Universidad de Uppsala</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
-        <div class="text2 esp" lang="es">
-            <p>Contacto: Fernando Bermúdez Wachmeister, departamento español.<br />
-            <a mailto="fernando.bermudez@moderna.uu.se">fernando.bermudez@moderna.uu.se</a>
-            </p>      
-        </div>
+<div class="participante2">
+    <div class="nombre2"><h2 >Universidad de Uppsala</h2></div>    
+    <div class="foto-cont2"><img class="" src="{{'/images/UU_logo.jpg' | relative_url }}" height="301" width="388" alt="ella" /></div>
+    <div class="text2 esp" lang="es">
+        <p>Contacto: Fernando Bermúdez Wachmeister, departamento español.<br />
+        <a mailto="fernando.bermudez@moderna.uu.se">fernando.bermudez@moderna.uu.se</a>
+        </p>      
     </div>
-    <hr class="separador"/>
+</div>
+<hr class="separador"/>
 
-    <div class="participante2">
-        <div class="nombre2"><h2 >Instituto Cervantes - Estocolmo</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
-        <div class="text2 esp" lang="es">
-            <p>Contacto: Alberto Garzón, director<br />
-                <a mailto="direstoc@cervantes.se">direstoc@cervantes.se</a>
-            </p>      
-        </div>
+<div class="participante2">
+    <div class="nombre2"><h2 >Instituto Cervantes - Estocolmo</h2></div>    
+    <div class="foto-cont2"><img class="" src="{{'images/logo.inst.cerv.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
+    <div class="text2 esp" lang="es">
+        <p>Contacto: Alberto Garzón, director<br />
+            <a mailto="direstoc@cervantes.se">direstoc@cervantes.se</a>
+        </p>      
     </div>
-    <hr class="separador"/>
+</div>
+<hr class="separador"/>
 
-    <div class="participante2">
-        <div class="nombre2"><h2 >Embajada de España</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
-        <div class="text2 esp" lang="es">
-            <p>Contacto: Juan Villar, consejero de cultura<br />
-            <a mailto="juan.villar@maec.se">juan.villar@maec.se</a>
-            </p>      
-        </div>
+<div class="participante2">
+    <div class="nombre2"><h2 >Embajada de España</h2></div>    
+    <div class="foto-cont2"><img class="" src="{{'/images/embajada.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
+    <div class="text2 esp" lang="es">
+        <p>Contacto: Juan Villar, consejero de cultura<br />
+        <a mailto="juan.villar@maec.se">juan.villar@maec.se</a>
+        </p>      
     </div>
-    <hr class="separador"/>
+</div>
+<hr class="separador"/>
 
 
 </div>

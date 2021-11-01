@@ -15,7 +15,7 @@ language-ref: participantes
     <div class="nombre2"><h2 >Olvido García Valdés</h2></div>    
     <div class="foto-cont2"><img class="" src="{{'/images/Olvido_Garcia_Valdes.jpg' | relative_url }}" height="301" width="388" alt="ella" /></div>
     <div class="text2 esp">
-        <p>National Poetry Award 2007 för <em>Och vi levde alla</em> och Pablo Neruda Ibero-American Poetry Prize 2021, kommer att presentera den svenska upplagan av det prisbelönta And we were all alive. <span class="leer-mas2"><a href="{{ 'se/bio_olvido_g_v_swe/' | relative_url }}">(Leer más)</a></span></p>      
+        <p>National Poetry Award 2007 för <em>Och vi levde alla</em> och Pablo Neruda Ibero-American Poetry Prize 2021, kommer att presentera den svenska upplagan av det prisbelönta And we were all alive. <span class="leer-mas2"><a href="{{ 'se/bio_olvido_g_v_swe/' | absolute_url }}">(Leer más)</a></span></p>      
     </div>
 </div>
 

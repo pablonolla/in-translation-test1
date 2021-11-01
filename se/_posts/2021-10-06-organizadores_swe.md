@@ -12,9 +12,9 @@ language-ref: organizadores
 <!--more-->
 <div class="organizadores">
 
-<p> In Translation <em> (spansk litteratur - Stockholm 2-4 december 2021) </em>, är ett projekt utvecklat och regisserat av Gaspar Cano i samarbete med Daniel Gustafsson. <p>
-<p> Gaspar Cano är filolog och <em> frilans </em> journalist; tidigare direktör och grundare av Cervantes-institutet i Stockholm, ledde han Cervantes-institutet i Berlin från 2007 till 2012.
-<p> Daniel Gustafsson är VD för Översättarcentrum, Stockholm. Författare och översättare, tidigare litteraturchef vid Svenska Institutet.</p> 
+<p>In Translation <em>(spansk litteratur - Stockholm 2-4 december 2021)</em>, är ett projekt utvecklat och regisserat av Gaspar Cano i samarbete med Daniel Gustafsson.</p>
+<p>Gaspar Cano är filolog och <em>frilans</em> journalist; tidigare direktör och grundare av Cervantes-institutet i Stockholm, ledde han Cervantes-institutet i Berlin från 2007 till 2012.</p>
+<p>Daniel Gustafsson är VD för Översättarcentrum, Stockholm. Författare och översättare, tidigare litteraturchef vid Svenska Institutet.</p> 
 
 <br />
 <h1>Organiserad av:</h1>
@@ -52,7 +52,7 @@ language-ref: organizadores
 
     <div class="participante2">
         <div class="nombre2"><h2 >Författarförbundet</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
+        <div class="foto-cont2"><img class="" src="{{'/images/logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
         <div class="text2 esp" lang="es">
             <p><a href="https://forfattarforbundet.se/" target="_blank">www.forfattarforbundet.se/</a><br />
             Contacto: Klara Lindell, responsable departamento traducción. <br />
@@ -64,7 +64,7 @@ language-ref: organizadores
 
     <div class="participante2">
         <div class="nombre2"><h2 >Kulturhuset/Stadsteatern</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
+        <div class="foto-cont2"><img class="" src="{{'/images/khst_logo.svg' | relative_url }}" height="301" width="388" alt="ella" /></div>
         <div class="text2 esp" lang="es">
             <p><a href="https://kulturhusetstadsteatern.se/" target="_blank">www.kulturhusetstadsteatern.se</a><br />
             Contacto: Ingmar Fasth, responsable programación de literature. <br />
@@ -76,7 +76,7 @@ language-ref: organizadores
 
     <div class="participante2">
         <div class="nombre2"><h2 >Universidad de Uppsala</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
+        <div class="foto-cont2"><img class="" src="{{'/images/UU_logo.jpg' | relative_url }}" height="301" width="388" alt="ella" /></div>
         <div class="text2 esp" lang="es">
             <p>Contacto: Fernando Bermúdez Wachmeister, departamento español.<br />
             <a mailto="fernando.bermudez@moderna.uu.se">fernando.bermudez@moderna.uu.se</a>
@@ -87,7 +87,7 @@ language-ref: organizadores
 
     <div class="participante2">
         <div class="nombre2"><h2 >Instituto Cervantes - Estocolmo</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
+        <div class="foto-cont2"><img class="" src="{{'images/logo.inst.cerv.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
         <div class="text2 esp" lang="es">
             <p>Contacto: Alberto Garzón, director<br />
                 <a mailto="direstoc@cervantes.se">direstoc@cervantes.se</a>
@@ -98,7 +98,7 @@ language-ref: organizadores
 
     <div class="participante2">
         <div class="nombre2"><h2 >Embajada de España</h2></div>    
-        <!-- <div class="foto-cont2"><img class="" src="{{'/images/oc_logo.png' | relative_url }}" height="301" width="388" alt="ella" /></div> -->
+        <div class="foto-cont2"><img class="" src="{{'/images/embajada.png' | relative_url }}" height="301" width="388" alt="ella" /></div>
         <div class="text2 esp" lang="es">
             <p>Contacto: Juan Villar, consejero de cultura<br />
             <a mailto="juan.villar@maec.se">juan.villar@maec.se</a>
