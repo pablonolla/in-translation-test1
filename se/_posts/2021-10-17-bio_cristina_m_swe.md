@@ -12,7 +12,7 @@ language-ref: bio-cm
 
 
 <div class="participante-bio">
-    <h3 class="fecha-bio">(Granada, España, 1985)</h3>
+    <h3 class="fecha-bio">(Granada, Spanien, 1985)</h3>
     <div class="foto-cont">
         <img class="foto" src="{{'images/Cristina_Morales.jpg' | relative_url }}"  alt="ella" /> 
     </div>
