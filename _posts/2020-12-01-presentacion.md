@@ -33,16 +33,21 @@ language-ref: presentacion
         <h1>Deltagarna <span class="barrita">/</span> Participantes</h1>
         <p>Conozca a los autores, traductores, editores, agentes literarios y expertos que tomarán parte.</p>
     </a>   
+        <a href="{{ "/textos/" | absolute_url }}">
+        <h1>Texter <span class="barrita">/</span> Textos:</h1>
+        <p>Textos de nuestros paticipantes sobre literatura y traducción.</p>
+    </a> 
+        <a href="{{ "/sedes/" | absolute_url }}">
+        <h1>Platser <span class="barrita">/</span> Sedes</h1>
+        <p>Cada día las actividades se desarrollán en una sede distinta.</p>
+    </a> 
     <a href="{{ "/organizadores/" | absolute_url }}">
         <h1>Organiserad av <span class="barrita">/</span> Organizado por:</h1>
         <p>Entidades organizadoras y colaboradoras.</p>
     </a>   
-    <a href="{{ "/sedes/" | absolute_url }}">
-        <h1>Platser <span class="barrita">/</span> Sedes</h1>
-        <p>Cada día las actividades se desarrollán en una sede distinta.</p>
-    </a>   
-    <a href="{{ "/textos/" | absolute_url }}">
-        <h1>Texter <span class="barrita">/</span> Textos:</h1>
-        <p>Selección de textos de nuestros paticipantes sobre literatura y traducción.</p>
-    </a> 
+      <a href="{{ "/publicacion/" | absolute_url }}">
+        <h1>Publicación <span class="barrita">/</span> Publikation:</h1>
+        <p>En esta sección se ofrecerán transcripciones, videos y audios de las distintas actividades celebaradas.</p>
+    </a>  
+
 </div>

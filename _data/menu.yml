@@ -17,6 +17,9 @@ es:
     - name: "Organizadores"
       url: "/organizadores/"  
 
+    - name: "Publicación"
+      url: "/publicacion/"    
+
 
 
 
@@ -34,8 +37,12 @@ se:
       url: "se/traducir_poesia_swe/"
 
     - name: "Platser"
-      url: "se/sedes_swe/"
+      url: "se/platser/"
 
     - name: "Arrangörer"
       url: "se/organizadores_swe/"  
+
+    - name: "Publikation"
+      url: "se/publikation/"        
+
 

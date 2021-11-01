@@ -24,14 +24,31 @@ language-ref: presentacion
     </div>
 
 </div>
-<p>&#160;</p>
-# Program <span class="barrita">/</span> Programa
-<p>3 días de actividades, incluyendo un seminario para traductores y diversos coloquios y conferencias.</p>
-<p>&#160;</p>
-# Paricipantes <span class="barrita">/</span> Deltagarna
-<p>&#160;</p>
-# Organizado por <span class="barrita">/</span> Organiserad av:
-<p>&#160;</p>
-# Sedes <span class="barrita">/</span> Platser
-<p>&#160;</p>
-# Entidades colaboradoras <span class="barrita">/</span> I samarbete med
+
+<div class="avance-prog">
+    <a href="{{ "/programa/" | absolute_url }}">
+        <h1>Program <span class="barrita">/</span> Programa</h1>
+        <p>3 dagars aktiviteter, inklusive ett seminarium för översättare, kollokvier och konferenser.</p>
+    </a>   
+    <a href="{{ "/participantes/" | absolute_url }}">
+        <h1>Deltagarna <span class="barrita">/</span> Participantes</h1>
+        <p>Möt författare, översättare, redaktörer, litterära agenter och experter som kommer att delta. </p>
+    </a>   
+        <a href="{{ "/textos/" | absolute_url }}">
+        <h1>Texter <span class="barrita">/</span> Textos:</h1>
+        <p>Texter från våra deltagare om litteratur och översättning.</p>
+    </a> 
+        <a href="{{ "/sedes/" | absolute_url }}">
+        <h1>Platser <span class="barrita">/</span> Sedes</h1>
+        <p>Varje dag äger aktiviteterna rum på en annan plats.</p>
+    </a> 
+    <a href="{{ "/organizadores/" | absolute_url }}">
+        <h1>Organiserad av <span class="barrita">/</span> Organizado por:</h1>
+        <p>Ansvariga för projektet, organiserande och samverkande enheter.</p>
+    </a>   
+      <a href="{{ "/publicacion/" | absolute_url }}">
+        <h1>Publicación <span class="barrita">/</span> Publikation:</h1>
+        <p>Det här avsnittet kommer att erbjuda utskrifter, videor och ljud från de olika aktiviteter som hålls.</p>
+    </a>  
+
+</div>

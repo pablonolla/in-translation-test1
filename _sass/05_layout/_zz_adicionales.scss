@@ -10,9 +10,7 @@ $intrans-color:    #ffb71c;
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
-#tnav-menu > a {
-  color: grey;
-}
+#tnav-menu > a {color: $ci-1;}
 
 #masthead.header-image div {
   background-position: center center;
@@ -89,7 +87,7 @@ span.barrita {
     color:magenta;
 }  
 
-
+.foto-cont {max-width: 400px;}
 
                         // PARTICIPANTE2
                         span.leer-mas2 {
@@ -137,8 +135,14 @@ span.barrita {
                           }
                         }  
 
-                        // Organizadores
+                        // ORGANIZADORES
                         div.organizadores {
+                          .foto-cont2 {max-width: 150px;}
+                        }
+
+
+                        // ORGANIZADORES
+                        div.sedes {
                           .foto-cont2 {max-width: 150px;}
                         }
 
