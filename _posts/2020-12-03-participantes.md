@@ -38,7 +38,7 @@ language-ref: participantes
         <figcaption>© Javier López Mansilla</figcaption>
     </figure>
     <div class="text2 esp" lang="es">
-        <p>Premio Nacional de Literatura 2019 por su obra <em>Lectura fácil</em>. <span class="leer-mas2"><a href="{{ '/bio_olvido_g_v/' | absolute_url }}">(Leer más)</a></span></p>
+        <p>Premio Nacional de Literatura 2019 por su obra <em>Lectura fácil</em>. <span class="leer-mas2"><a href="{{ '/bio_cristina_m/' | absolute_url }}">(Leer más)</a></span></p>
     </div>
 </div>
 

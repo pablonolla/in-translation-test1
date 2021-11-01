@@ -3,7 +3,6 @@ title: 'Olvido García Valdés - swe'
 title2: 'Olvido García Valdés'
 header_image: 'intranslation2.png'
 header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
-header_caption_url: 'https://unsplash.com/grakozy/portfolio'
 language: se
 language-ref: bio-ogv
 ---
