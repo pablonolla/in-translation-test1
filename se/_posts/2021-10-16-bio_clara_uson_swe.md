@@ -17,7 +17,7 @@ language-ref: bio-cu
 <div class="participante bio">
     <h3 class="fecha-bio">(Barcelona, Spanien, 1961)</h3>
     <div class="foto-cont">
-        <img class="foto" src="/{{'images/Clara_Uson.jpg' | relative_url }}" alt="ella" /> 
+        <img class="foto" src="/images/Clara_Uson.jpg" alt="ella" /> 
     </div>
     <div class="text swe" lang="se">
         <p> Han studerade juridik och praktiserade juridik i 18 år. </p>
