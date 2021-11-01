@@ -34,7 +34,7 @@
           <!-- <em>Read this page in a different language:</em> -->
           <!-- <ul> -->
           {% for post in posts %}
-          <li class="tnav-item"><a href="{{ post.url | absolute_url }}" class="{{ post.language }}" title="View in {{post.language}}">{{ post.language }}
+          <li class="tnav-item"><a href="{{ post.url | relative_url }}" class="{{ post.language }}" title="View in {{post.language}}">{{ post.language }}
             {% if post.language == "es" %} {% elsif post.language == "se" %}
             {% endif %}</a></li>
           {% endfor %}
