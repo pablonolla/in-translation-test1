@@ -9,7 +9,7 @@ es:
       url: "/participantes/"
 
     - name: "Textos"
-      url: "/traducir_poesia/"
+      url: "/textos/"
 
     - name: "Sedes"
       url: "/sedes/"
@@ -34,7 +34,7 @@ se:
       url: "se/deltagarna/"
 
     - name: "Texter"
-      url: "se/traducir_poesia_swe/"
+      url: "se/texter/"
 
     - name: "Platser"
       url: "se/platser/"
