@@ -13,13 +13,11 @@ language-ref: presentacion
 
 <div class="dos-idiomas">
     <div class="text izq" lang="se">  
-        <p>Falta traducción!! Under Stockholm Literary Fair och med översättning som utgångspunkt, <em>In translation: Spanish literature</em> presenteras med ett seminarium för proffs om översättning från spanska till svenska och olika offentliga möten med några av de mest framstående författarna, litteraturkritikerna och agenterna av aktuell spansk litteratur.</p>
-        <p>Ur litteraturens industriella perspektiv värdesätter vi översättarens avgörande arbete för att koppla ihop de olika aktörerna som griper in på den litterära marknaden, både i poesi och berättande, och som uppstår mellan Spanien och Sverige. Allt detta, utan att tappa nyheterna om litterära nyheter ur sikte för att stödja marknadsföringen på marknaden.</p>
+        <p>Ur litteraturens industriella perspektiv värdesätter vi översättarens arbete. <em>IN TRANSLATION: Spanish literature</em> inleds i Stockholm med ett seminarium för spansk-svenska översättare inför Litteraturmässan 2021. Offentliga möten med spanska författare och presentationer av de senaste utgåvorna på svenska av den spanska litteraturen gör upp programmet. Det yttersta målet är att koppla samman de olika aktörerna på förlagsmarknaden mellan Sverige och Spanien. </p>
     </div>
         <div class="rule">&#160;</div>
     <div class="text der">
-        <p>Durante la Feria literaria de Estocolmo y con la traducción como punto de partida, <em>In translation: Spanish literature</em> se presenta con un seminario para profesionales sobre la traducción del español al sueco y distintos encuentros públicos con algunos de los autores, críticos literarios y agentes más destacados la literatura española actual.</p>
-        <p>Desde la perspectiva industrial de la literatura ponemos en valor la decisiva labor del traductor para conectar entre sí a los distintos actores que intervienen en el mercado literario, tanto en poesía como en narrativa, y que se produce entre España y Suecia. Todo ello, sin perder de vista la actualidad de las novedades literarias para apoyar su promoción en el mercado.</p>
+        <p>Desde la perspectiva industrial de la literatura, ponemos en valor la labor del traductor. <em>IN TRANSLATION: Spanish literature</em> arranca en Estocolmo con un seminario para profesionales de la traducción del español al sueco previo a la Feria literaria de 2021. Encuentros públicos con autores españoles y presentaciones de las últimas ediciones en sueco de la literatura española componen el programa. El objetivo final es conectar a los distintos actores que intervienen en el mercado editorial entre Suecia y España.</p>
     </div>
 
 </div>
