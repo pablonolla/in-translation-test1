@@ -44,7 +44,7 @@ language-ref: presentacion
         <p>Entidades organizadoras y colaboradoras.</p>
     </a>   
       <a href="{{ "/publicacion/" | absolute_url }}">
-        <h1>Publicación <span class="barrita">/</span> Publikation:</h1>
+        <h1>Documentación <span class="barrita">/</span> Dokumentation:</h1>
         <p>En esta sección se ofrecerán transcripciones, videos y audios de las distintas actividades celebaradas.</p>
     </a>  
 

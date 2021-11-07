@@ -12,6 +12,11 @@ $intrans-color:    #ffb71c;
 
 #tnav-menu > a {color: $ci-1;}
 
+// li.tnav-item.es::before {
+//   content: 'algo';
+//   display: inline-block;
+// }
+
 #masthead.header-image div {
   background-position: center center;
   background-repeat: no-repeat;
@@ -36,7 +41,7 @@ hr {
 }
 
 
-*[lang|=se] {font-style: italic;}
+// *[lang|=se] {font-style: italic;}
    
  div[lang|=se] {
     border-right: 0px solid $intrans-color;
@@ -77,6 +82,7 @@ div.dos-idiomas {
         grid-row: 2 / 3;  
         background:magenta;
       } 
+      *[lang|=se] {font-style: italic;}
 }
 @media (max-width: $small - 1) {
   div.dos-idiomas {display: block;}
@@ -87,9 +93,31 @@ span.barrita {
     color:magenta;
 }  
 
+                                      // Sección textos
 .textos {
-  h2 {text-align: center; margin-bottom: 4em;}
+  h2 {margin-bottom: 4em;}
 }
+
+.textos-index {
+    div[class^="texto-"] {
+      // border-bottom: 1px solid magenta;
+      padding: 10px 0;
+      a {color: inherit;}
+      .titulo, .autor {margin: 0;}
+      span.link {display: block; color:magenta}
+    }
+    div[class^="texto-"]::after { 
+        display: block;
+        content: " ";
+        width: 30%;
+        margin: .5em auto;
+        border-bottom: 1px solid magenta;
+    }
+      div[class^="texto-"]:first-child {margin-top: 3em;}
+}
+
+
+
 .foto-cont {max-width: 400px;}
 
                         // PARTICIPANTE2

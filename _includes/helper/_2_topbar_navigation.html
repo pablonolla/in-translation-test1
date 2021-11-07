@@ -35,6 +35,7 @@
           <!-- <ul> -->
           {% for post in posts %}
           <li class="tnav-item"><a href="{{ post.url | relative_url }}" class="{{ post.language }}" title="View in {{post.language}}">{{ post.language }}
+            <!-- <img src="/images/Language-Icons/icon20x24px-exported.jpg" /> -->
             {% if post.language == "es" %} {% elsif post.language == "se" %}
             {% endif %}</a></li>
           {% endfor %}

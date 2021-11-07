@@ -47,7 +47,7 @@ language-ref: presentacion
         <p>Ansvariga för projektet, organiserande och samverkande enheter.</p>
     </a>   
       <a href="{{ "/publicacion/" | absolute_url }}">
-        <h1>Publicación <span class="barrita">/</span> Publikation:</h1>
+        <h1>Documentación <span class="barrita">/</span> Dokumentation:</h1>
         <p>Det här avsnittet kommer att erbjuda utskrifter, videor och ljud från de olika aktiviteter som hålls.</p>
     </a>  
 

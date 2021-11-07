@@ -17,7 +17,7 @@ es:
     - name: "Organizadores"
       url: "/organizadores/"  
 
-    - name: "Publicación"
+    - name: "Documentación"
       url: "/publicacion/"    
 
 
@@ -42,7 +42,7 @@ se:
     - name: "Arrangörer"
       url: "se/organizadores_swe/"  
 
-    - name: "Publikation"
+    - name: "Dokumentation"
       url: "se/publikation/"        
 
 

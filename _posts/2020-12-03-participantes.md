@@ -57,7 +57,7 @@ language-ref: participantes
 
 <div class="participante2">
     <div class="nombre2"><h2>Ella Sher</h2></div>
-    <div class="foto-cont2"><img class="fot" src="{{'/images/Ella_Sher.jpeg' | relative_url }}" alt="ella" /></div>
+    <div class="foto-cont2"><img class="fot" src="{{'images/EllaSherBW.webp' | relative_url }}" alt="ella" /></div>
     <div class="text2 esp" lang="es">
         <p>Agente literaria establecida en Barcelona y nombre fundamental en la circulación de la literatura española producida por autores emergentes menores de cuarenta años. Cristina Morales, Jon Bilbao, Juan Gómez Bárcena, María Folguera o Sergio del Molino se cuentan entre sus representados. <span class="leer-mas2"><a href="{{ '/bio_olvido_g_v/' | absolute_url }}">(Leer más)</a></span></p>
     </div>
