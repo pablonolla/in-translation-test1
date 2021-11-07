@@ -1,14 +1,48 @@
 
 $intrans-color:    #ffb71c;
 
+@media screen and (min-width: 40em) {
+  .medium-8 {width: 76.66667%; }
+}
+@media screen and (min-width: 64em) {
+  .medium-8 {width: 66.66667%; }
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding-left: 2em;;
+  vertical-align: -3px;
+  float: right;
+  color: magenta;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 #masthead figcaption {
   margin-top: -15px;
   color:grey;
 }
 
-.column, .columns {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; }
+// .column, .columns {
+//   padding-left: 1.5rem;
+//   padding-right: 1.5rem; }
 
 #tnav-menu > a {color: $ci-1;}
 
