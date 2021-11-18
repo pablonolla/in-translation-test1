@@ -26,20 +26,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
   font-weight: $font-weight-normal;
   padding: 0;
+  text-align: left;
 }
 
 h1 {
   font-size: $font-size-h1;
   text-transform: uppercase;
-  font-weight: $font-weight-bold;
-  letter-spacing: 1px;
+  // font-weight: $font-weight-bold;
+  letter-spacing: 6px;
   margin-top: 0;
+  text-align: center;
 }
 h2 {
   font-size: $font-size-h2;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   margin-top: 2em;
+
 }
 h3 {
   font-style: italic;
