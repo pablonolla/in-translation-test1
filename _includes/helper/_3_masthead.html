@@ -2,7 +2,7 @@
 	{% for post in site.posts limit:1%}
 	{% if forloop.first %}
 
-	<header id="masthead"{% if post.header_image %} class="header-image"{% endif %}>
+	<!-- <header id="masthead"{% if post.header_image %} class="header-image"{% endif %}>
 		{% if post.header_image %}
 			<figure>
 				<div style="background-image: url('{{ "/images/" | absolute_url }}{{ post.header_image }}');"></div>
@@ -17,17 +17,18 @@
 				{% endif %}
 			</figure>
 		{% endif %}
-	</header>
+	</header> -->
 
 	{% endif %}
 	{% endfor %}
 {% elsif page.header_image %}
 
-	<header id="masthead"{% if page.header_image %} class="header-image"{% endif %}>
+	<header id="masthead"{% if page.header_image %} class="entrada"{% endif %}>
 		{% if page.header_image %}
-			<figure>
-				<div style="background-image: url('{{ "/images/" | absolute_url }}{{ page.header_image }}');"></div>
-				{% if page.header_caption_url && page.header_caption %}
+			<!-- <figure> -->
+				<img src="{{ "/images/" | absolute_url }}{{ page.header_image }}" (>
+				<!-- <div style="background-image: url('{{ "/images/" | absolute_url }}{{ page.header_image }}');"></div> -->
+				<!-- {% if page.header_caption_url && page.header_caption %}
 				<figcaption>
 					<a href="{{ page.header_caption_url }}" target="_blank">{{ page.header_caption }}</a>
 				</figcaption>
@@ -35,8 +36,8 @@
 				<figcaption>
 					{{ page.header_caption }}
 				</figcaption>
-				{% endif %}
-			</figure>
+				{% endif %} -->
+			<!-- </figure> -->
 		{% endif %}
 	</header>
 {% endif %}

@@ -1,7 +1,7 @@
 ---
 title: 'Olvido García Valdés - esp'
 title2: 'Olvido García Valdés'
-header_image: 'intranslation2.png'
+# header_image: 'intranslation2.png'
 header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
 language: es
 language-ref: bio-ogv
@@ -13,7 +13,9 @@ language-ref: bio-ogv
 <!-- <h1>Participantes</h1> -->
 
 <!-- Test with grid -->
+
 <div class="participante-bio">
+<h1>Olvido García Valdés</h1>
     <h3 class="fecha-bio">(Santianes de Pravia, Asturias, España, 1950)</h3>
     <div class="foto-cont">
         <img class="foto" src="{{'/images/Olvido_Garcia_Valdes.jpg' | relative_url }}" height="301" width="388" alt="ella" /> 

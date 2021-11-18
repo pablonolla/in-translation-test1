@@ -1,8 +1,8 @@
 ---
 title: 'Clara Usón – esp'
 title2: 'Clara Usón'
-header_image: 'intranslation2.png'
-header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
+# header_image: 'intranslation2.png'
+# header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
 # fullwidth: true
 language: es
 language-ref: bio-cu
@@ -14,7 +14,8 @@ language-ref: bio-cu
 <!-- <h1>Participantes</h1> -->
 
 <!-- Test with grid -->
-<div class="participante bio">
+<div class="participante-bio">
+<h1>Clara Usón</h1>
     <h3 class="fecha-bio">(Barcelona, España, 1961)</h3>
     <div class="foto-cont">
         <img class="foto" src="/images/Clara_Uson.jpg" alt="ella" /> 

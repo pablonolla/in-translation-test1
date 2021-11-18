@@ -1,8 +1,8 @@
 ---
 title: 'Cristina Morales - esp'
 title2: 'Cristina Morales'
-header_image: 'intranslation2.png'
-header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
+# header_image: 'intranslation2.png'
+# header_caption: 'Spanish literature – Stockholm 2-4 december 2021'
 language: es
 language-ref: bio-cm
 
@@ -12,6 +12,7 @@ language-ref: bio-cm
 
 
 <div class="participante-bio">
+    <h1>Cristina Morales</h1>
     <h3 class="fecha-bio">(Granada, España, 1985)</h3>
     <div class="foto-cont">
         <img class="foto" src="{{'images/Cristina_Morales.jpg' | relative_url }}"  alt="ella" /> 

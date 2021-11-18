@@ -16,10 +16,11 @@ devices. You find it in _sass/_layout/_layout_media_queries.scss
   top: 0;
   z-index: 3;
   white-space: nowrap;
-  border-bottom: 1px solid $line-color;
+  // border-bottom: 1px solid $line-color;
   background: $background-color;
-  opacity: .9;
+  // opacity: .9;
 }
+
 .tnav-list,
 .tnav-item {
   position: relative;
@@ -132,3 +133,7 @@ devices. You find it in _sass/_layout/_layout_media_queries.scss
   height: 1.5em;
   fill: $line-color;
 }
+
+
+
+

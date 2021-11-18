@@ -1,16 +1,12 @@
 <nav id="tnav" class="tnav-horizontal">
   <ul class="tnav-list">
-
-    <li id="tnav-logo" class="tnav-item tnav-has-children tnav-allow-hover no-dropdown-arrow"><a href="#" accesskey="1">{{ site.title }}</a>
-      <ul class="tnav-children">
-        <li class="tnav-item"><a href="{{ "/" | absolute_url }}">Home</a></li>
-        <li class="tnav-item"><a href="https://elpais.com" target="_blank">In Translation edición 2022</a></li>
-        <li class="tnav-item"><a href="https://abc.es" target="_blank">In Translation edición 2022</a></li>
-        <!-- <li class="tnav-item"><a href="http://phlow.de/">Phlow.de</a></li> -->
-      </ul>
+    <li id="tnav-logo" class="tnav-item tnav-has-children tnav-allow-hover no-dropdown-arrow">
+      <a href="#" accesskey="1">
+        <img src="{{'/images/IT_Logo-1.png' | relative_url }}" (>
+      </a>
     </li>
 
-{% comment %}
+<!-- {% comment %}
 #   This is just an example of a dropdown menu of the navigation.
 #   Delete comments to use it.
 #
@@ -21,46 +17,35 @@
         <li class="tnav-item"><a href="#">Dropdown Item 3</a></li>
       </ul>
     </li>
-{% endcomment %}
+{% endcomment %} -->
 
     <li id="tnav-search" class="tnav-item"><a href="{{ "/search/" | absolute_url }}">{% include svg/search.svg %}</a></li>
 
-  {% if page.layout != 'index' %}
+  <!-- {% if page.layout != 'index' %}
   {% assign posts=site.posts | where:"language-ref", page.language-ref | sort: 'language' %}
       {% if posts.size == 0 %}
           {% assign posts=site.pages | where:"language-ref", page.language-ref | sort: 'language' %}
       {% endif %}
       {% if posts.size > 1 %}
-          <!-- <em>Read this page in a different language:</em> -->
-          <!-- <ul> -->
           {% for post in posts %}
           <li class="tnav-item"><a href="{{ post.url | relative_url }}" class="{{ post.language }}" title="View in {{post.language}}">{{ post.language }}
-            <!-- <img src="/images/Language-Icons/icon20x24px-exported.jpg" /> -->
             {% if post.language == "es" %} {% elsif post.language == "se" %}
             {% endif %}</a></li>
           {% endfor %}
-          <!-- </ul> -->
-          <!-- <span class="traducc"><img src="/images/Language-Icons/icon20x24px-exported-transparent.png" /></span> -->
       {% endif %}
-{% endif %}
+{% endif %} -->
 
 
-    <!-- <li id="tnav-share" class="tnav-item tnav-has-children tnav-allow-hover no-dropdown-arrow"><a href="#">{% include svg/share.svg %}</a>
-      <ul class="tnav-children">
-		<li class="tnav-item"><a href="http://twitter.com/share?url={{ page.url | absolute_url }}&text=&raquo;{{ page.title }}&laquo;&via={{ site.socialmedia.twitter }}">Tweet it</a></li>
-		<li class="tnav-item"><a href="http://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}">Facebook</a></li>
-		<li class="tnav-item"><a href="http://pinterest.com/pin/create/button/?url={{ page.url | absolute_url }}&media={{ "/images/" | absolute_url }}{{ page.image }}&description={{ page.content | truncatewords: 40 | strip_html }}" class="pin-it-button" count-layout="horizontal">Pin It</a></li>
-		<li class="tnav-item"><a href="https://plus.google.com/share?url={{ page.url | absolute_url }}">Google Plus</a></li>
-		<li class="tnav-item"><a href="http://www.stumbleupon.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}">StumbleUpon</a></li>
-		<li class="tnav-item"><a href="http://reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}">Reddit</a></li>
-		<li class="tnav-item"><a href="http://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}&source={{ page.url | absolute_url }}">LinkedIn</a></li>
-		<li class="tnav-item"><a href="mailto:?subject={{ page.title }}&body={{ page.url | absolute_url }}">Email</a></li>
-      </ul>
-    </li> -->
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Programa</a></li>
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Participantes</a></li>    
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Textos</a></li>
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Sedes</a></li>
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Organizadores</a></li>
+    <li id="tnav-men" class="tnav-item"><a href="{{ item.url | absolute_url }}">Créditos</a></li>    
 
+    <li id="tnav-menu" class="tnav-item"><a href="{{ item.url | absolute_url }}">SE</a></li>  
 
-
-    <li id="tnav-menu" class="tnav-item tnav-has-children tnav-allow-hover"><a href="#">
+    <!-- <li id="tnav-menu" class="tnav-item tnav-has-children tnav-allow-hover"><a href="#">
       
       {% if page.language == "es" %} Contenido 
         {% else %} Inehåll
@@ -79,7 +64,7 @@
               <li class="tnav-item tnav-hid"><a href="{{ item.url | absolute_url }}">{{ item.name }}</a></li> 
             {% endfor %}
       </ul>
-    </li> 
+    </li>  -->
 
   </ul>
 
